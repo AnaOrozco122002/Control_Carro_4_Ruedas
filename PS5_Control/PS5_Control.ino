@@ -547,10 +547,10 @@ void loop() {
         if(!Turbo){
 
           //Velocidades de los Motores
-          velocidades[0]=R2-700;
+          velocidades[0]=R2-300;
           velocidades[1]=R2;
           velocidades[2]=R2;
-          velocidades[3]=R2-700;
+          velocidades[3]=R2-300;
           //Limitaciones de los Motores
           velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
           velocidades[0] = (velocidades[0] > 100) ? 100 : velocidades[0];
@@ -621,10 +621,10 @@ void loop() {
         if(!Turbo){
 
           //Velocidades de los Motores
-          velocidades[0]=L2-700;
+          velocidades[0]=L2-300;
           velocidades[1]=L2;
           velocidades[2]=L2;
-          velocidades[3]=L2-700;
+          velocidades[3]=L2-300;
           //Limitaciones de los Motores
           velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
           velocidades[0] = (velocidades[0] > 100) ? 100 : velocidades[0];
@@ -725,8 +725,8 @@ void loop() {
 
           //Velocidades de los Motores
           velocidades[0]=R2;
-          velocidades[1]=R2-700;
-          velocidades[2]=R2-700;
+          velocidades[1]=R2-300;
+          velocidades[2]=R2-300;
           velocidades[3]=R2;
           //Limitaciones de los Motores
           velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
@@ -804,8 +804,8 @@ void loop() {
           
           //Velocidades de los Motores
           velocidades[0]=L2;
-          velocidades[1]=L2-700;
-          velocidades[2]=L2-700;
+          velocidades[1]=L2-300;
+          velocidades[2]=L2-300;
           velocidades[3]=L2;
           //Limitaciones de los Motores
           velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];

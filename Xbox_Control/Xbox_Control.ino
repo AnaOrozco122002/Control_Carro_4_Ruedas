@@ -561,10 +561,10 @@ void loop() {
           if(!Turbo){
 
             //Velocidades de los Motores
-            velocidades[0]=RTrig-700;
+            velocidades[0]=RTrig-300;
             velocidades[1]=RTrig;
             velocidades[2]=RTrig;
-            velocidades[3]=RTrig-700;
+            velocidades[3]=RTrig-300;
             //Limitaciones de los Motores
             velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
             velocidades[0] = (velocidades[0] > 100) ? 100 : velocidades[0];
@@ -636,10 +636,10 @@ void loop() {
 
             
             //Velocidades de los Motores
-            velocidades[0]=LTrig-700;
+            velocidades[0]=LTrig-300;
             velocidades[1]=LTrig;
             velocidades[2]=LTrig;
-            velocidades[3]=LTrig-700;
+            velocidades[3]=LTrig-300;
             //Limitaciones de los Motores
             velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
             velocidades[0] = (velocidades[0] > 100) ? 100 : velocidades[0];
@@ -740,8 +740,8 @@ void loop() {
 
             //Velocidades de los Motores
             velocidades[0]=RTrig;
-            velocidades[1]=RTrig-700;
-            velocidades[2]=RTrig-700;
+            velocidades[1]=RTrig-300;
+            velocidades[2]=RTrig-300;
             velocidades[3]=RTrig;
             //Limitaciones de los Motores
             velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
@@ -819,8 +819,8 @@ void loop() {
             
             //Velocidades de los Motores
             velocidades[0]=LTrig;
-            velocidades[1]=LTrig-700;
-            velocidades[2]=LTrig-700;
+            velocidades[1]=LTrig-300;
+            velocidades[2]=LTrig-300;
             velocidades[3]=LTrig;
             //Limitaciones de los Motores
             velocidades[0] = (velocidades[0] < 0) ? 0 : velocidades[0];
