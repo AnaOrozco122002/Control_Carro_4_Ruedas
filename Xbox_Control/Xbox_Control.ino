@@ -6,7 +6,7 @@
 #include <Adafruit_SH110X.h>
 
 
-
+//Soy Paula 2
 //Pantalla
 #define i2c_Address 0x3c //initialize with the I2C addr 0x3C Typically eBay OLED's
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
